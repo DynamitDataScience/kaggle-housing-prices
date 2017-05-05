@@ -1,0 +1,35 @@
+# ignore various backups and temp files
+.DS_Store
+~$*.xls*
+~$*.ppt*
+~$*.doc*
+*.tmp
+*.xlk
+~*.idlk
+
+# Emacs
+.\#*
+\#*\#
+*~
+
+# R history and data files
+*.Rproj
+.Rproj.user
+*.Rhistory
+*.RData
+*.Rapp.history
+Rplots.pdf
+
+# Large files to be held on S3
+data/
+logs/
+validation/
+deliverables/
+
+# Test files used in development
+test/
+.idea/
+src/analysis/report/
+src/etl/
+
+# Intellij
