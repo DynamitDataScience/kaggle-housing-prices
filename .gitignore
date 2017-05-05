@@ -18,18 +18,14 @@
 *.Rhistory
 *.RData
 *.Rapp.history
-Rplots.pdf
+*Rplots.pdf
 
-# Large files to be held on S3
+# Large files
 data/
 logs/
-validation/
-deliverables/
 
-# Test files used in development
-test/
+# Misc
 .idea/
-src/analysis/report/
-src/etl/
 
 # Intellij
+*.iml
