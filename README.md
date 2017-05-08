@@ -10,10 +10,13 @@ https://www.kaggle.com/c/expedia-personalized-sort.
 ### Clone the repo
 
 To clone this repo from stash onto your machine, go to your terminal and execute 
-(assuming that your stash username is "jane.doe")
-```$bash
+(assuming that your stash username is "jane.doe") 
+
+```bash
 git clone http://jane.doe@stash.dynamit.com/scm/dt/ranking-expedia-search-results.git
 ```
+
+Your stash username is usually the same as your Dynamit Active Directory username.
 
 Stash also has a nice graphical repo management tool called 
 Source Tree (available here: https://www.sourcetreeapp.com/)
@@ -38,41 +41,23 @@ so that we can collaborate more easily. Once downloaded, execute the installer a
 Anaconda ships with a ton of packages already installed (full list here: https://docs.continuum.io/anaconda/pkg-docs).
 Notably, the installer includes `scikit-learn`, `pandas`, and `numpy`. To install a package not included in the anaconda
 distribution, open a terminal and execute one of
-```$bash
+
+```bash
 conda install [package-name]
 ```
+
 or
-```$bash
+
+```bash
 pip install [package-name] --user
 ```
+
 Warning: it is not advisable to run `pip` as root as the installed packages can
 interfere with your system libraries.
 
 
+## Contribution guidelines
+
+## Getting help
 
 
-
-
-## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
