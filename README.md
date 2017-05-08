@@ -9,7 +9,8 @@ https://www.kaggle.com/c/expedia-personalized-sort.
 
 ### Clone the repo
 
-To clone this repo from stash onto your machine, go to your terminal and execute 
+To clone this repo from stash onto your machine, go to your terminal, navigate to the directory
+ where you want the code to live, and execute 
 (assuming that your stash username is "jane.doe") 
 
 ```bash
@@ -21,6 +22,13 @@ Your stash username is usually the same as your Dynamit Active Directory usernam
 Stash also has a nice graphical repo management tool called 
 Source Tree (available here: https://www.sourcetreeapp.com/)
 if you prefer that.
+
+### Getting the data
+
+The data for this competition is available here: https://www.kaggle.com/c/expedia-personalized-sort/data
+Download "data.zip" and extract it to a folder named "data" at the top level of your local repository 
+(created in the previous step).
+
 
 ### Setting up your development environment
 
@@ -55,8 +63,19 @@ pip install [package-name] --user
 Warning: it is not advisable to run `pip` as root as the installed packages can
 interfere with your system libraries.
 
+### Jupyter Notebooks
+
+Jupyter Notebooks are a great way to share ideas and code.
+Here's a cool notebook using `scikit-learn` implementing a common machine learning classification
+algorithm called the Support Vector Machine (SVM):
+https://github.com/donnemartin/data-science-ipython-notebooks/blob/master/scikit-learn/scikit-learn-svm.ipynb.
+
+
+
 
 ## Contribution guidelines
+
+
 
 ## Getting help
 
