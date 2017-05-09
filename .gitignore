@@ -24,8 +24,11 @@
 data/
 logs/
 
-# Misc
-.idea/
-
 # Intellij
 *.iml
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# Misc
+.idea/
