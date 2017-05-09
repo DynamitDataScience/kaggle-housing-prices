@@ -23,6 +23,16 @@ Stash also has a nice graphical repo management tool called
 Source Tree (available here: https://www.sourcetreeapp.com/)
 if you prefer that.
 
+### A simple example
+
+To see a simple example of using jupyter notebooks to train machine learning algorithms run the 
+`simpleExample.ipynb` file in `source/jupyter`. If you have jupyter (See the _Setting up your development
+environment_ section), simply execute
+
+```bash
+jupyter notebook path/to/simpleExample.ipynb
+```
+
 ### Getting the data
 
 The dataset for this kaggle competition is not very large. For convenience, all of
