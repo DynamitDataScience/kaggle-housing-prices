@@ -25,16 +25,13 @@ if you prefer that.
 
 ### Getting the data
 
-The data for this competition is available here: https://www.kaggle.com/c/expedia-personalized-sort/data
-Download "data.zip" and move it to a folder named "data" at the top level of your local repository 
-(created in the previous step). Your mac may have trouble unzipping that large file. If so, navigate
-to the data folder in a terminal and execute
+For convenience, this repo includes a 5% sample  of the training and test data. These files
+are located at 
 
-```bash
-unzip -a data.zip
-```
+* data/sample/train.csv
+* data/sample/test.csv
 
-You should get two files: train.csv and test.csv.
+The full data for this competition is available here: https://www.kaggle.com/c/expedia-personalized-sort/data.
 
 
 ### Setting up your development environment
