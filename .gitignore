@@ -21,7 +21,11 @@
 *Rplots.pdf
 
 # Large files
-data/
+data/*
+!*/data_description.txt
+!*/sample_submission.csv
+!*/test.csv
+!*/train.csv
 logs/
 
 # Intellij

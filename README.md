@@ -2,7 +2,7 @@
 
 This is the central repo for all code used in the _Ranking Expedia Search Results_ 
 kaggle competition. Details for this competion can be found here:
-https://www.kaggle.com/c/expedia-personalized-sort.
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
 
 ## Getting started
@@ -14,7 +14,7 @@ To clone this repo from stash onto your machine, go to your terminal, navigate t
 (assuming that your stash username is "jane.doe") 
 
 ```bash
-git clone http://jane.doe@stash.dynamit.com/scm/dt/ranking-expedia-search-results.git
+git clone http://jane.doe@stash.dynamit.com/scm/dt/kaggle-housing-prices.git
 ```
 
 Your stash username is usually the same as your Dynamit Active Directory username.
@@ -25,13 +25,15 @@ if you prefer that.
 
 ### Getting the data
 
-For convenience, this repo includes a 5% sample  of the training and test data. These files
-are located at 
+The dataset for this kaggle competition is not very large. For convenience, all of
+the data has been included in this repo in the data/ directory:
 
-* data/sample/train.csv
-* data/sample/test.csv
+* data/train.csv -- the data used to train and validate the model
+* data/test.csv -- the data used to generate submissions
+* data/sample_submission.csv -- a sample submission
+* data/data_description.txt -- A description of all of the data variables
 
-The full data for this competition is available here: https://www.kaggle.com/c/expedia-personalized-sort/data.
+The data can also be found here: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data.
 
 
 ### Setting up your development environment
