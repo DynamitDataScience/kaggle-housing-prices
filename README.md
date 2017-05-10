@@ -1,6 +1,6 @@
 ## Overview
 
-This is the central repo for all code used in the _Ranking Expedia Search Results_ 
+This is the central repo for all code used in the _House Prices: Advanced Regression Techniques_ 
 kaggle competition. Details for this competion can be found here:
 https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
