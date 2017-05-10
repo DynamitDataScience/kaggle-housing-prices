@@ -10,18 +10,11 @@ https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 ### Clone the repo
 
 To clone this repo from stash onto your machine, go to your terminal, navigate to the directory
- where you want the code to live, and execute 
-(assuming that your stash username is "jane.doe") 
+ where you want the code to live, and execute
 
 ```bash
-git clone http://jane.doe@stash.dynamit.com/scm/dt/kaggle-housing-prices.git
+git clone https://github.com/DynamitDataScience/kaggle-housing-prices.git
 ```
-
-Your stash username is usually the same as your Dynamit Active Directory username.
-
-Stash also has a nice graphical repo management tool called 
-Source Tree (available here: https://www.sourcetreeapp.com/)
-if you prefer that.
 
 ### A simple example
 
