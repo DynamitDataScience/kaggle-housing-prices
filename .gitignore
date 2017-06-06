@@ -26,6 +26,7 @@ data/*
 !*/sample_submission.csv
 !*/test.csv
 !*/train.csv
+!*/submissions
 logs/
 
 # Intellij
